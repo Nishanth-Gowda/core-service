@@ -11,5 +11,5 @@ func Route(rGroup *gin.RouterGroup) {
 }
 
 func healthHandler(c *gin.Context) {
-	c.String(200, "Success")
+	c.String(200, "Healthy")
 }

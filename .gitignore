@@ -3,3 +3,20 @@
 .env.*
 env/
 config/environments/*
+
+# Ignore temporary files and directories
+tmp/
+
+# Ignore Go build artifacts
+*.exe
+*.test
+*.out
+*.log
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
