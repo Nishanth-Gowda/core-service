@@ -1,1 +1,5 @@
+# Ignore environment-specific files and directories
 .env
+.env.*
+env/
+config/environments/*
